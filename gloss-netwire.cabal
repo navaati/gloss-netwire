@@ -1,0 +1,16 @@
+name:                gloss-netwire
+version:             0.1.0.0
+synopsis:            A netwire interface to Gloss
+homepage:            https://github.com/navaati/gloss-netwire
+license:             GPL-3
+license-file:        LICENSE
+author:              Leo Gillot-Lamure
+maintainer:          leo.gillot@navaati.net
+category:            Graphics
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Graphics.Gloss.NetWire.Pure.Game
+  build-depends:       base ==4.5.*, gloss ==1.7.*, base-unicode-symbols ==0.2.*, netwire ==3.1.*, mtl ==2.0.*
+  hs-source-dirs:      src
